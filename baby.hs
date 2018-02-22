@@ -70,8 +70,3 @@ second (_, y, _) = y
 
 third :: (a, b, c) -> c
 third (_, _, z) = z
-
---
-somaElton:: Double -> Double -> Double
-somaElton 6 6 = 666
-somaElton x y = x + y
